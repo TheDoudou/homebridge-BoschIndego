@@ -1,0 +1,24 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "XX:XX:XX:XX:XX:XX",
+        "port": 51826,
+        "pin": "000-00-000"
+    },
+
+    "description": "",
+
+    "platforms": [],
+
+    "accessories": [
+        {
+			"accessory": "BoschIndego",
+			"name": "Mower",
+			"model": 1000,
+			"email": "test@test.com",
+			"pass": "test",
+			"update_interval": "10000",
+			"view_log": false
+        }
+    ]
+}

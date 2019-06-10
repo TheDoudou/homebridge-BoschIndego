@@ -1,0 +1,69 @@
+{
+  "_args": [
+    [
+      "homebridge-boschindego",
+      ""
+    ]
+  ],
+  "_from": "homebridge-boschindego@latest",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/homebridge-boschindego",
+  "_nodeVersion": "5.1.0",
+  "_npmUser": {
+    "email": "entremont.e@gmail.com",
+    "name": "TheDoudou"
+  },
+  "_npmVersion": "2.14.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "homebridge-boschindego",
+    "raw": "homebridge-boschindego",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "",
+  "_shasum": "",
+  "_shrinkwrap": null,
+  "_spec": "homebridge-boschindego",
+  "_where": "",
+  "author": "TheDoudou",
+  "dependencies": {},
+  "description": "Bosch Indego Mower",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "",
+    "tarball": ""
+  },
+  "engines": {
+    "homebridge": ">=0.2.0",
+    "node": ">=0.12.0"
+  },
+  "homepage": "",
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge-boschindego",
+    "Bosch",
+    "Indego"
+  ],
+  "license": "ISC",
+  "maintainers": [
+    "TheDoudou <entremont.e@gmail.com>"
+  ],
+  "name": "homebridge-boschindego",
+  "optionalDependencies": {},
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheDoudou/homebridge-BoschIndego"
+  },
+  "scripts": {},
+  "version": "0.0.2",
+  "main": "index.js"
+}
