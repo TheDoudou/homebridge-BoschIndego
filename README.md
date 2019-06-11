@@ -27,7 +27,7 @@ The available fields in the config.json file are:
  - `model` Additional information for the accessory.
  - `email` and `pass` fields used to authenticate the request into the device.
  - `update_interval` If not zero, the field defines the polling period in miliseconds for the sensor state. When the value is zero, the state is only updated when homebridge requests the current value.
- - `view_log` Set true for watch plugin log )
+ - `view_log` Set true for watch plugin log.
 
 Example:
 
