@@ -1,69 +1,92 @@
 {
   "_args": [
     [
-      "homebridge-boschindego",
-      ""
+      {
+        "raw": "homebridge-http-humidity@0.2.0",
+        "scope": null,
+        "escapedName": "homebridge-http-humidity",
+        "name": "homebridge-http-humidity",
+        "rawSpec": "0.2.0",
+        "spec": "0.2.0",
+        "type": "version"
+      },
+      "/root/.homebridge"
     ]
   ],
-  "_from": "homebridge-boschindego@latest",
+  "_from": "homebridge-http-humidity@0.2.0",
+  "_id": "homebridge-http-humidity@0.2.0",
   "_inCache": true,
   "_installable": true,
-  "_location": "/homebridge-boschindego",
-  "_nodeVersion": "5.1.0",
-  "_npmUser": {
-    "email": "entremont.e@gmail.com",
-    "name": "TheDoudou"
+  "_location": "/homebridge-http-humidity",
+  "_nodeVersion": "8.0.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/homebridge-http-humidity-0.2.0.tgz_1505405418685_0.46063757105730474"
   },
-  "_npmVersion": "2.14.12",
+  "_npmUser": {
+    "name": "metbosch",
+    "email": "metbosch@outlook.com"
+  },
+  "_npmVersion": "5.0.0",
   "_phantomChildren": {},
   "_requested": {
-    "name": "homebridge-boschindego",
-    "raw": "homebridge-boschindego",
-    "rawSpec": "",
+    "raw": "homebridge-http-humidity@0.2.0",
     "scope": null,
-    "spec": "latest",
-    "type": "tag"
+    "escapedName": "homebridge-http-humidity",
+    "name": "homebridge-http-humidity",
+    "rawSpec": "0.2.0",
+    "spec": "0.2.0",
+    "type": "version"
   },
   "_requiredBy": [
-    "#USER"
+    "/"
   ],
-  "_resolved": "",
-  "_shasum": "",
+  "_resolved": "https://registry.npmjs.org/homebridge-http-humidity/-/homebridge-http-humidity-0.2.0.tgz",
+  "_shasum": "057490dc167dec63000508d1e2b120346588c4a5",
   "_shrinkwrap": null,
-  "_spec": "homebridge-boschindego",
-  "_where": "",
-  "author": "TheDoudou",
-  "dependencies": {},
-  "description": "Bosch Indego Mower",
+  "_spec": "homebridge-http-humidity@0.2.0",
+  "_where": "/root/.homebridge",
+  "author": {
+    "name": "@metbosch"
+  },
+  "bugs": {
+    "url": "https://github.com/metbosch/homebridge-http-humidity/issues"
+  },
+  "dependencies": {
+    "request": "^2.1.0"
+  },
+  "description": "https plugin for homebridge",
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "shasum": "",
-    "tarball": ""
+    "integrity": "sha512-GJjlW4jYv0UA/0YxMLZ2Ml3UWhwOX1PZwhfbdwW0AVMXs1YC5MOUkbv4t25OKxFmDFUQyM80AlExRoGGHV9Yrw==",
+    "shasum": "057490dc167dec63000508d1e2b120346588c4a5",
+    "tarball": "https://registry.npmjs.org/homebridge-http-humidity/-/homebridge-http-humidity-0.2.0.tgz"
   },
   "engines": {
     "homebridge": ">=0.2.0",
     "node": ">=0.12.0"
   },
-  "homepage": "",
+  "gitHead": "c9303c9ee95b521cded519dc939188ef81fa425e",
+  "homepage": "https://github.com/metbosch/homebridge-http-humidity#readme",
   "keywords": [
     "homebridge-plugin",
-    "homebridge-boschindego",
-    "Bosch",
-    "Indego"
+    "http",
+    "humidity sensor"
   ],
   "license": "ISC",
   "maintainers": [
-    "TheDoudou <entremont.e@gmail.com>"
+    {
+      "name": "metbosch",
+      "email": "metbosch@outlook.com"
+    }
   ],
-  "name": "homebridge-boschindego",
+  "name": "homebridge-http-humidity",
   "optionalDependencies": {},
-  "readme": "README.md",
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TheDoudou/homebridge-BoschIndego"
+    "url": "git://github.com/metbosch/homebridge-http-humidity.git"
   },
-  "scripts": {},
-  "version": "0.0.3",
-  "main": "index.js"
+  "version": "0.2.0"
 }
