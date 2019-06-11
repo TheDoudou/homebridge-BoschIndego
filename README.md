@@ -6,6 +6,7 @@ It's work :
 
     - Auth
     - Read state
+	- Add switch for mowing or docking
 
 And don't work :
 
@@ -25,8 +26,8 @@ The available fields in the config.json file are:
  - `name` Accessory name.
  - `model` Additional information for the accessory.
  - `email` and `pass` fields used to authenticate the request into the device.
- - `update_interval` If not zero, the field defines the polling period in miliseconds for the sensor state (Default is 10000ms). When the value is zero, the state is only updated when homebridge requests the current value.
-
+ - `update_interval` If not zero, the field defines the polling period in miliseconds for the sensor state. When the value is zero, the state is only updated when homebridge requests the current value.
+ - `view_log` Set true for watch plugin log )
 
 Example:
 
